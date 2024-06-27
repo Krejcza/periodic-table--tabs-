@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Quicksand", sans-serif;
+}
+
+.row{
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+body{
+   background-color: rgb(99, 99, 99);
+}
+
+.tab-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.tab-container{
+   width: 100%;
+   border: 5px solid #323232;
+   border-radius: 25px;
+   transform: translateX(-50%);
+   position: absolute;
+   left: 50%;
+   top: 20vh;
+   background-color:#fff;
+}
+
+.tabs {
+   display: flex;
+   flex-direction: row;
+   
+ }
+
+ .tabs h3 {
+  background: linear-gradient(to bottom,#532B88, #9B72CF);
+   text-align: center;
+   padding: 15px 0;
+   cursor: pointer;
+   font-weight: 600;
+   font-size: 1.5rem;
+   color: #fff;
+   flex: 1;;
+   transition: 0.5s all;
+ }
+
+ .tabs h3:nth-child(1){
+  border-radius: 20px 0 0 0;
+ }
+
+ .tabs h3:nth-child(5){
+  border-radius: 0 20px 0 0;
+ }
+
+ .tab-content {
+   background-color: #ffffff;
+   padding: 120px 60px;
+   border-radius: 25px;
+ }
+
+ 
+.main-chemistry-name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #323232;
+}
+
+ .tab-content .no-display {
+   display: none;
+ }
+ .tab-content .active {
+   display: block;
+ }
+ .tabs .active {
+  background: linear-gradient(#ffffff, #ffffff);
+   color: #532B88;
+   transform: translateY(50%);
+ }
+
+ .quant-kvalt{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+ }
+ 
+.kvalt-quant-chem-tabs{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-bottom: 50px;
+  border: 5px solid #323232;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+}
+
+.kvalt-quant-chem-tabs p{
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  color: #F4EFFA;
+}
+
+.kvalt-quant-chem-tabs svg{
+  height: 400px;
+  width: auto;
+}
+
+.quant-name{
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #323232;
+}
+
+.quant-names{
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #2F184B;
+}
+
+.about-analytics-text{
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  color: #323232;
+  font-weight: 500;
+}
+
+.diff-industry-use{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 15px;
+  margin-bottom: 50px;
+}
+
+.usage-industry{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 200px;
+  padding: 15px;
+  border: 5px solid #323232;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+}
+
+.usage-industry h5{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  flex: 1;
+  color: #2F184B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usage-industry p{
+  font-size: 1.25rem;
+  color: #F4EFFA;
+  flex: 2;
+}
+
+.svg-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.svg-center svg{
+  height: 400px;
+  width: auto;
+}
+
+.metal-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 2rem;
+  margin-bottom: 50px;
+}
+
+.metal-text-part{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.metal-text-part h5{
+  font-size: 2rem;
+  color: #2F184B;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.metal-text-part p{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F4EFFA;
+  font-size: 1.5rem;
+}
+
+.metal-part svg{
+  flex: 1;
+  height: 400px;
+}
+
+.metal-part-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 50px;
+  border: 5px solid #323232;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+}
+
+.reaction-types{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reaction-two-boxes{
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-around;
+  width: 100%;
+  column-gap: 2rem;
+}
+
+.reaction-two-boxes:nth-child(1){
+  margin-bottom: 50px;
+}
+
+.reaction-box{
+  padding: 30px;
+  display: flex;
+  flex:1;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 3rem;
+  border: 5px solid #323232;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+  min-height: 500px;
+}
+
+.reaction-box h5{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2F184B;
+}
+
+.reaction-box p{
+  font-size: 1.5rem;
+  color: #F4EFFA;
+}
+
+.reaction-svg-acid{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.reaction-svg-acid svg{
+  height: 400px;
+  width: auto;
+}
+
+.chemical-iron-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.chemical-iron-wrapper svg{
+  height: 400px;
+  width: auto;
+  flex: 1;
+}
+
+.all-chemical-irons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+  row-gap: 2rem;
+  flex: 1;
+}
+
+.one-chemical-iron{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  column-gap: 2rem;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.one-chemical-iron h5{
+  font-size: 2rem;
+  color: #fff;
+}
+
+.one-chemical-iron p{
+  font-size: 1.5rem;
+  color: #323232;
+  font-weight: 500;
+}
+
+.number-wrapper-iron{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border: 3px solid #323232;
+}
+
+.number-wrapper-iron::after{
+  content: '';
+  min-width: 300px;
+  height: 5px;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  position: absolute;
+  top:75px;
+  left: 75px;
+}
+
+.termochem-text{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  margin-bottom: 50px;
+}
+
+.termochem-text p{
+  flex: 1;
+  padding: 30px;
+  font-size: 1.5rem;
+  border: 5px solid #323232;
+  background: linear-gradient(45deg,#532B88, #9B72CF);
+  border-radius: 25px;
+  color: #F4EFFA;
+}
+
+.atoms-groups{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.atom-ind{
+  padding: 15px;
+  text-align: center;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 1rem;
+  width: 150px;
+  height: 180px;
+}
+
+.atom-ind h6{
+  font-size: 1.15rem;
+}
+
+.reaction-mech{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 30px;
+}
+
+.reaction-mech p{
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.reaction-mech svg{
+  flex: 1;
+  height: 250px;
+  width: auto;
+}
+
+.biomolecul-wrap{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 50px;
+  border: 2px solid blue;
+  padding: 30px;
+}
+
+.biomolecul-wrap p{
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.biomolecul-wrap svg{
+  flex: 1;
+  height: 250px;
+  width: auto;
+}
+
+.bible-chem-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.bible-top-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bible-ind{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid blue;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+}
+
+.bible-ind h5{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bible-ind p{
+  font-size: 1.15rem;
+}
+
+.bible-ind .bible-law{
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.decomposition-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.decomposition-wrap p{
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.decomposition-wrap svg{
+  flex: 1;
+}
+
+.quantum-mech-wrap{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.quantum-mech-wrap h5{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.quantum-mech{
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quantum-mech-box{
+  border: 2px solid blue;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  height: 250px;
+}
+
+.quantum-mech-box h6{
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.quantum-mech-box p{
+  font-size: 1.15rem;
+}
+
+.mech-box-top-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.quantum-name{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.faze-weights{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  align-items: center;
+  padding: 30px;
+}
+
+.faze-weights p{
+  flex: 2;
+  font-size: 1.5rem;
+}
+
+.faze-weights svg{
+  flex: 1;
+  height: 300px;
+}
+
+.type-of-rays-wrapper{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.type-of-rays-wrapper svg{
+  height: 500px;
+  width: auto;
+}
+
+.type-of-rays{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 2rem;
+}
+
+.one-ray{
+  display: flex;
+  border: 2px solid blue;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.one-ray h5{
+  flex: 1;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-ray p{
+  flex: 4;
+  font-size: 1.25rem;
+}
+
+.atomic-chernobil{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.atomic-chernobil p{
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.atomic-chernobil svg{
+  flex: 1;
+}
